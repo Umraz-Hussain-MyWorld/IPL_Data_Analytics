@@ -9,11 +9,11 @@
  
  + Highest individual score 
 
- ![](IMG/indivi_score.jpg)
+ ![](IMG/Indivi_score.jpg)
  
  + Runs per over
 
-![](IMG/run_per_over.jpg)
+![](IMG/Run_per_over.jpg)
 
 + Score Distributions
  
