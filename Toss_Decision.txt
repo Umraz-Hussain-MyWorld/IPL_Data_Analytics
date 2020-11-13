@@ -1,0 +1,5 @@
+mlt.subplots(figsize=(12,8))
+sns.countplot(x='Season',hue='toss_decision',data=matches)
+mlt.savefig("C:/Users/Umraz/Desktop/plt/Toss_Decision.jpg",dpi=300)
+
+mlt.show()

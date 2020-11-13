@@ -1,0 +1,9 @@
+#Maximum Toss Winners
+
+mlt.subplots(figsize=(10,6))
+ax=matches['toss_winner'].value_counts().plot.bar(width=0.9,color=sns.color_palette('RdYlGn',20))
+for p in ax.patches:
+    ax.annotate(format(p.get_height()), (p.get_x()+0.15, p.get_height()+1))
+mlt.savefig("C:/Users/Umraz/Desktop/plt/Max_toss_winner.jpg",dpi=300)
+
+mlt.show()
